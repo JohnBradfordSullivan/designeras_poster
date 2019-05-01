@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Pilowlava;
+    font-weight: Regular;
+    src: url("fonts/Pilowlava-Regular.woff") format("woff");
+}
+
+.image {
+  align-content: center;
+}
+
+head {
+  background-color: #000000;
+
+}
+
+body {
+  background-color: #000000;
+}
+
+.designeris {
+    position: fixed;
+    font-family: 'Pilowlava', Regular;
+    font-size: 160pt;
+    color: #000001;
+    height: auto;
+    top: 5%;
+    left: 3%;
+    z-index: +1;
+}
+
+.pbox {
+    position: absolute;
+    background-color: #fa5dff;
+    width: 20px;
+    height: auto;
+    height: 45px;
+    top: 1205px;
+    left: 660px;
+    z-index: +1;
+}
+
+.bbox {
+    position: absolute;
+    background-color: #2f7aff;
+    width: 20px;
+    height: auto;
+    height: 45px;
+    top: 1505px;
+    left: 360px;
+    z-index: +1;
+}
+
+.tbox {
+    position: absolute;
+    background-color: #04dff4;
+    width: 20px;
+    height: auto;
+    height: 45px;
+    top: 905px;
+    left: 660px;
+    z-index: +1;
+}
+
+.gbox {
+    position: absolute;
+    background-color: #85ea93;
+    width: 20px;
+    height: auto;
+    height: 45px;
+    top: 905px;
+    left: 3660px;
+    z-index: +1;
+}
+
+.ybox {
+    position: absolute;
+    background-color: #fad200;
+    width: 20px;
+    height: auto;
+    height: 45px;
+    top: 1305px;
+    left: 1760px;
+    z-index: +1;
+}
+
+.obox {
+    position: absolute;
+    background-color: #ffb13c;
+    width: 20px;
+    height: auto;
+    height: 45px;
+    top: 1105px;
+    left: 1560px;
+    z-index: +1;
+}

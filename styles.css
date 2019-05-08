@@ -4,6 +4,32 @@
     src: url("fonts/Pilowlava-Regular.woff") format("woff");
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 500px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  border: 3px solid #FFFFFF;
+  padding: 30px 0;
+  font-family: courier;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 .image {
   align-content: center;
 }
@@ -20,76 +46,99 @@ body {
 .designeris {
     position: fixed;
     font-family: 'Pilowlava', Regular;
-    font-size: 160pt;
-    color: #000001;
+    font-size: 100pt;
+    margin: 250px auto;
+    text-align: center;
     height: auto;
-    top: 5%;
-    left: 3%;
+    background: url(gradient.png);
+    background-size: cover;
+    background-attachment: absolute;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     z-index: +1;
+    
 }
 
-.pbox {
+.gradient {
+  position: fixed;
+  height: 882px;
+  background-image: url(images/gradient.png);
+  background-attachment: fixed;
+  background-position-y: -407px;
+  background-position-x: 0;
+  display: inline-block;
+  bottom: 0px;
+  right: -1000px;
+  background-color: #FC9815;
+  background-blend-mode: overlay;
+  background-size: 1920px;
+  width: 1920px;
+  clip-path: url(#gradient);
+  z-index: +1;
+}
+
+#pbox {
     position: absolute;
     background-color: #fa5dff;
     width: 20px;
     height: auto;
     height: 45px;
-    top: 1205px;
-    left: 660px;
+    top: 2000px;
+    left: 4700px;
     z-index: +1;
 }
 
-.bbox {
+#bbox {
     position: absolute;
     background-color: #2f7aff;
     width: 20px;
     height: auto;
     height: 45px;
-    top: 1505px;
-    left: 360px;
+    top: 1900px;
+    left: 2850px;
     z-index: +1;
 }
 
-.tbox {
+#tbox {
     position: absolute;
     background-color: #04dff4;
     width: 20px;
     height: auto;
     height: 45px;
-    top: 905px;
-    left: 660px;
+    top: 600px;
+    left: 300px;
     z-index: +1;
 }
 
-.gbox {
+#gbox {
     position: absolute;
     background-color: #85ea93;
     width: 20px;
     height: auto;
     height: 45px;
-    top: 905px;
-    left: 3660px;
+    top: 1550px;
+    left: 4060px;
     z-index: +1;
 }
 
-.ybox {
+#ybox {
     position: absolute;
     background-color: #fad200;
     width: 20px;
     height: auto;
     height: 45px;
-    top: 1305px;
-    left: 1760px;
+    top: 1904px;
+    left: 1903px;
     z-index: +1;
 }
 
-.obox {
+#obox {
     position: absolute;
     background-color: #ffb13c;
     width: 20px;
     height: auto;
     height: 45px;
-    top: 1105px;
-    left: 1560px;
+    top: 1051px;
+    left: 5350px;
     z-index: +1;
 }
